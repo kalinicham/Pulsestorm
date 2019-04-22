@@ -3,7 +3,7 @@
     <referenceBlock name="content">
         <block
                 template="content.phtml"
-                class="Pulsestorm\ToDoCrud\Block\Main"
+                class="Pulsestorm\ToDoCrud\Block\ToMain"
                 name="pulsestorm_todocrud_index_index"/>
     </referenceBlock>
 </page>
