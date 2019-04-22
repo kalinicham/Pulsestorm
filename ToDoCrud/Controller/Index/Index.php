@@ -1,5 +1,5 @@
 <?php
-namespace Pulsestorm\ToDoCrud\Controller\Hello;
+namespace Pulsestorm\ToDoCrud\Controller\Index;
 
 use Magento\Framework\View\Result\PageFactory;
 use Magento\Framework\App\Action\Context;

@@ -3,7 +3,7 @@ namespace Pulsestorm\ToDoCrud\Block;
 
 use Magento\Framework\View\Element\Template;
 
-class Main extends Template
+class MyMain extends Template
 {
     protected function _prepareLayout()
     {
