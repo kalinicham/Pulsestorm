@@ -1,25 +1,23 @@
 <?php
+namespace Pulsestorm\Repository\Command;
+
+use Magento\Framework\ObjectManagerInterface;
+use Symfony\Component\Console\Command\Command;
+
 
 class Examples extends Command
 {
-    /*protected $objectManager;
+    protected $objectManager;
 
-    protected function __construct(
-        \Magento\Framework\ObjectManagerInterface $objectManager,
+    public function __construct(
+        ObjectManagerInterface $manager,
         \Magento\Framework\App\State $appState,
-        $name = null
+        $name=null
     )
     {
-        $this->objectManager = $objectManager;
+        $this->objectManager = $manager;
         $appState->setAreaCode('frontend');
-        parent::__construct($name);
+        parent::__construct();
     }
-
-    protected function execute(InputInterface $input, OutputInterface $output)
-    {
-        $repo = $this->objectManager->get('Magento\Catalog\Model\ProductRepository');
-        $page = $repo->getById(2);
-        echo get_class($page),"\n";
-    }*/
 
 }
