@@ -1,8 +1,8 @@
 <?php
 
-class Examples extends \Symfony\Component\Console\Command\Command
+class Examples extends Command
 {
-    protected $objectManager;
+    /*protected $objectManager;
 
     protected function __construct(
         \Magento\Framework\ObjectManagerInterface $objectManager,
@@ -20,6 +20,6 @@ class Examples extends \Symfony\Component\Console\Command\Command
         $repo = $this->objectManager->get('Magento\Catalog\Model\ProductRepository');
         $page = $repo->getById(2);
         echo get_class($page),"\n";
-    }
+    }*/
 
 }
