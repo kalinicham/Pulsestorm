@@ -5,7 +5,7 @@
              title="Second Level Example"
              module="Pulsestorm_HelloAdminBackend"
              sortOrder="9999"
-             resource="Magento_Backend::content"
+             resource="Pulsestorm_HelloAdminBackend::top"
              parent="Magento_Backend::system_other_settings"
              action="cms/page/index"
         />
@@ -13,7 +13,7 @@
              title="Hello Admin Backend Pestle"
              module="Pulsestorm_HelloAdminBackend"
              sortOrder="9999"
-             resource="Magento_Backend::content"
+             resource="Pulsestorm_HelloAdminBackend::menu_1"
              parent="Pulsestorm_HelloAdminBackend::a_menu_item"
              action="pulsestorm_hello_admin_backend/index/index"
         />
